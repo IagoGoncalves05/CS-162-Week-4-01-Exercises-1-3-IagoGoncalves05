@@ -1,0 +1,44 @@
+************************
+EXERCISE 1 INSTRUCTIONS:  
+************************
+
+Implement a class called Triangle that inherits from GeometricObject.  
+private class members:
+
+double base;
+double height;
+
+public class memebers:
+
+Triangle(double base, double height);
+double getArea();
+
+Google the formula for triange area if you don't know it
+
+Run the Exercise 1 self test to ensure you implemented the class correctly
+
+Save your working code by going to version control, create a git repo, and commit your code with "Exercise 1" as the comment.
+
+************************
+EXERCISE 2 INSTRUCTIONS:  
+************************
+
+Don't start this until you get to Exercise 2 in the slides.
+
+Redefine the toString() function for the Triangle class such that it returns the string "Triangle Object"
+
+Make sure the Exercise 2 self test passes (the Exercise 1 test will no longer pass, but that is ok)
+
+Commit your code with "Exercise 2" as the comment.
+
+************************
+EXERCISE 3 INSTRUCTIONS:  
+************************
+
+Add getArea() to the GeometricObject class as an abstract function
+
+Update GeometricObject::printObject such that it prints the area if (and only if) the geometric object passed in is a Triangle. The format should be "Area: 25" on it's own line (exactly as the cout statements for color, filled, etc).
+
+The Exercise 3 input/output test should pass when you are finished. Uncomment the Exercise 3 test code in main() before testing.
+
+Commit with the comment "Exercise 3".
