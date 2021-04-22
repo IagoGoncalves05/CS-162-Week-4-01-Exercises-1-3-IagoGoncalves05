@@ -13,6 +13,7 @@ public:
   void setFilled(bool filled);
   std::string toString() const; 
   static void printObject(GeometricObject& g);
+  virtual double getArea() = 0;
 private:
   std::string color;
   bool filled;
