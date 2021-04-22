@@ -44,7 +44,7 @@ void GeometricObject::printObject(GeometricObject& g)
   std::cout << "Object Type: " << g.toString() << std:: endl;
   std::cout << "Color: " << g.getColor() << std:: endl;
   std::cout << "Filled: " << (g.isFilled() ? "Yes" : "No") << std:: endl;
-
+  
   // Your code here
 
 }

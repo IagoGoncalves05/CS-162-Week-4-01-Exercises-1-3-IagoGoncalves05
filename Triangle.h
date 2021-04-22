@@ -14,5 +14,7 @@ public:
     double getBase();
     double getHeight();
     double getArea();
+    // Exercise 2
+    std::string toString() const;
 };
 #endif 
