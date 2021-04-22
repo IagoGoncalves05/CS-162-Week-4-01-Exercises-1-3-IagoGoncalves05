@@ -46,5 +46,5 @@ void GeometricObject::printObject(GeometricObject& g)
   std::cout << "Filled: " << (g.isFilled() ? "Yes" : "No") << std:: endl;
   
   // Your code here
-
+  std::cout << "Area: " << g.getArea() << std::endl;
 }

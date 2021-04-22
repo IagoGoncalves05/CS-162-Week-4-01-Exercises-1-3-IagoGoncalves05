@@ -8,9 +8,7 @@ int main()
   Triangle t(5,10);
   t.setColor("purplicious");
   std::cout << "The " << t.toString() << " has an area of " << t.getArea() << " and is a beautiful hue of " << t.getColor() << std::endl;
-  // Exercise 2
-  t.printObject(t);
-  std::cout << "Area: " << t.getArea();
+  
   // Test code for Exercise 3 (uncomment after Exercise 2)
-  //GeometricObject::printObject(t);
+  GeometricObject::printObject(t);
 }
